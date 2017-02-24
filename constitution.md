@@ -6,7 +6,7 @@ The name of the society shall be "DATA TAS", herein referred to as "The Society"
 
 ## 2. Objects/Aims
 
-The objects/aims of the Society shall be [here you add what you wish in the way of your Society's objects].
+The objects/aims of the Society shall be to share data-related tools, techniques and knowledge, and foster a community of like-minded individuals across disciplines, industries and level of ability.
 
 ## 3. Society Subject to TUU Regulations and Societies Council Policy
 
