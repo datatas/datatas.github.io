@@ -1,4 +1,10 @@
-# Constitution
+---
+layout: default
+title: Constitution
+description: Our constitution
+show_banner: false
+container: true
+---
 
 ## 1. Name
 
