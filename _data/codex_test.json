@@ -1,0 +1,22 @@
+{
+    "python": [
+        {
+            "topic": "Getting Started",
+            "slug": "getting-started",
+            "description": "Getting started with Python.",
+            "category": "basics"
+        },
+        {
+            "topic": "Functions",
+            "slug": "functions",
+            "description": "Writing reusable code.",
+            "category": "basics"
+        },
+        {
+            "topic": "Modules",
+            "slug": "modules",
+            "description": "Adding functionality with modules.",
+            "category": "basics"
+        },
+    ]
+}

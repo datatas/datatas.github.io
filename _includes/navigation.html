@@ -1,0 +1,20 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="/" id="nav-logo">
+                    <img src="/img/logo-long.svg" alt="DATA TAS Logo">
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <nav id="nav-main">
+                    <ul>
+                    {% for nav in site.data.navigation %}
+                        <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

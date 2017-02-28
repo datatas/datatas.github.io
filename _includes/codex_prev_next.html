@@ -1,0 +1,16 @@
+{% for topic in site.data.codex_test[{{page.codex_stream}}] %}
+{% if topic.topic == page.title %}
+
+    {% assign prev_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
+
+    {% if forloop.index0 != 0 %}
+    <a href="/codex/{{page.codex_stream}}/{{ site.data.codex_test[pages.codex_stream][prev_index].slug }}" class="pull-left btn btn-primary"><span class="glyphicon glyphicon-arrow-left"></span> Previous Article: {{ site.data.codex_test[pages.codex_stream][prev_index].topic }}</a>
+    {% endif %}
+
+    {% if forloop.index < forloop.length %}
+    <a href="/codex/{{page.codex_stream}}/{{ site.data.codex_test[pages.codex_stream][next_index].slug }}" class="pull-right btn btn-primary">Next Article: {{ site.data.codex_test[pages.codex_stream][next_index].topic }} <span class="glyphicon glyphicon-arrow-right"></span></a>
+    {% endif %}
+
+{% endif %}
+{% endfor %}

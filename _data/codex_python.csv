@@ -1,0 +1,14 @@
+category,topic,description,slug
+basics,Getting Started,Picking a language,getting-started
+basics,Installation,Setting up for data,installation
+basics,The Interpreter,Talk to the computer,interpreter
+basics,Scripting,Script a series of commands for the computer to run,scripting
+basics,Syntax,Learning to speak in code,syntax
+basics,Variables,Assigning values for later use,variables
+basics,Conditionals,Do things based on certain conditions,conditionals
+basics,Loops,Do things over and over,loops
+basics,Functions,Writing reusable code,functions
+basics,Modules,Loading libraries of functionality,modules
+files_io,Arguments,Passing arguments to scripts,arguments
+files_io,CSV,Working with comma-separated values,csv
+files_io,NetCDF,Working with NetCDF files,netcdf

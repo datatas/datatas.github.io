@@ -1,0 +1,165 @@
+@dt_blue: rgb(0,117,246);
+@header_padding: 30px 0px;
+@footer_padding: 30px 0px;
+@footer_margin: 30px;
+@banner_padding: 80px;
+@banner_margin: 30px;
+
+.shadow_up {
+    box-shadow: 0px 0px -5px #000;
+}
+
+.dt_font {
+    font-family: Roboto;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+#logo-wordmark {
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+
+    span {
+        color: @dt_blue;
+    }
+}
+
+header {
+
+    border-bottom: 1px dotted #ccc;
+    // box-shadow: 0px 0px 5px #000;
+
+    #nav-logo {
+        display: block;
+        padding: @header_padding;
+        img {
+            height: 35px;
+        }
+    }
+
+    #nav-main {
+
+        ul {
+
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            float: right;
+            padding: @header_padding;
+
+            li {
+                .dt_font;
+                font-size: 24px;
+                display: inline-table;
+                margin-left: 20px;
+                a {
+                    color: #000;
+                    &:hover {
+                        color: @dt_blue;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+#tagline {
+    font-family: Roboto;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+}
+
+section {
+
+    &.banner {
+        padding-top: @banner_padding;
+        padding-bottom: @banner_padding;
+        margin-bottom: @banner_margin;
+    }
+
+    &.blue-shatter {
+        background-image: url("../img/bg-triangulation.jpg")
+    }
+
+    &.mission {
+
+        // background-color: #333;
+        // color: #fff;
+        padding-top: @banner_padding / 2;
+        padding-bottom: @banner_padding / 2;
+
+        p {
+            display: block;
+            margin: auto;
+            max-width: 800px;
+            text-align: center;
+            .dt_font;
+            text-transform: none;
+            font-size: 20px;
+        }
+
+    }
+
+}
+
+// Typography
+h1, h2, h3 {
+    .dt_font;
+}
+
+footer {
+    // background-color: #333;
+    // color: #fff;
+    border-top: 1px dotted #ccc;
+    padding: @footer_padding;
+    margin-top: @footer_margin;
+}
+
+// Utilities
+.text-centered {
+    text-align: center;
+}
+
+.services {
+    h1 {
+        margin-bottom: @banner_padding / 2;
+    }
+}
+
+.service {
+
+    text-align: center;
+
+    span.glyphicon {
+        font-size: 60px;
+        display: inline-block;
+        border-radius: 100px;
+        // width: 50px;
+        border: 2px solid @dt_blue;
+        padding: 30px;
+        margin: auto;
+        color: @dt_blue;
+        background-color: #eef;
+    }
+
+    h2 {
+        font-size: 20px;
+        .text-centered;
+    }
+}
+
+.breadcrumb {
+    background: none;
+    padding-left: 0px;
+    margin-top: 10px;
+}
