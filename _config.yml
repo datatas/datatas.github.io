@@ -15,11 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: DATA TAS
 email: datatasau@gmail.com
-description: "Description here"
+description: "Tasmanian Data Community"
+keywords: "data,data science,analytics,programming,hobart,tasmania"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://datatas.github.io" # the base hostname & protocol for your site
 twitter_username: datatas
 github_username:  datatas
+google_analytics: UA-92738959-1
+
+
 
 # Build settings
 markdown: kramdown
