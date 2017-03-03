@@ -1,12 +1,24 @@
-<header>
+<nav id="nav-mobile">
+    <a href="#" id="nav-mobile-close"><span class="glyphicon glyphicon-remove"></span></a>
+    <ul>
+    {% for nav in site.data.navigation %}
+        <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+    {% endfor %}
+    </ul>
+</nav>
+
+<header class="navbar-fixed-top">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-xs-6">
                 <a href="/" id="nav-logo">
                     <img src="/img/logo-long.svg" alt="DATA TAS Logo">
                 </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 visible-sm visible-xs col-xs-6">
+                <a href="#" id="nav-open"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+            </div>
+            <div class="col-sm-6 hidden-sm hidden-xs">
                 <nav id="nav-main">
                     <ul>
                     {% for nav in site.data.navigation %}

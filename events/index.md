@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Upcoming Events
-description: Upcoming events
-show_banner: false
+description: Upcoming DATA TAS events
+keywords: data,event,hobart,tasmania,workshop,seminar,conference
 container: true
 disable: true
+show_banner: false
 ---
 
 {% if page.disable %}
@@ -44,5 +45,9 @@ Members meet casually to discuss code and data-related topics over a cuppa. If y
 
 - IMAS Waterfront, 9:00am Flex Space
 - UTas Sandy Bay,
+
+### R Fridays
+
+Talk about R stuff...
 
 {% endif %}
