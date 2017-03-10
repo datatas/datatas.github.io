@@ -100,9 +100,45 @@ h3 {
   letter-spacing: 0.12em;
 }
 footer {
+  background-color: #fff;
+  color: #000;
   border-top: 1px dotted #ccc;
   padding: 30px 0px;
   margin-top: 30px;
+  font-size: 0.8em;
+}
+footer #footer-logo {
+  width: 150px;
+  display: block;
+  margin-bottom: 20px;
+}
+footer #footer-nav {
+  margin: 0px;
+  padding: 0px;
+}
+footer #footer-nav li {
+  list-style: none;
+}
+footer #footer-nav li a {
+  color: inherit;
+  text-transform: uppercase;
+}
+footer a.social {
+  opacity: 0.5;
+}
+footer a.social img {
+  height: 32px;
+}
+footer a.social:hover {
+  opacity: 1.0;
+}
+footer #footer-subscribe strong {
+  display: block;
+  text-transform: uppercase;
+}
+footer #footer-subscribe input {
+  background-color: #222;
+  border: 1px solid #111;
 }
 .text-centered {
   text-align: center;
@@ -187,4 +223,43 @@ nav#nav-mobile ul li a:hover {
   font-size: 24px;
   padding: 30px;
   padding-top: 32px;
+}
+.stream-tile {
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+.stream-tile.stream-python {
+  background: linear-gradient(rgba(0, 159, 85, 0.75), rgba(0, 159, 85, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile.stream-r {
+  background: linear-gradient(rgba(255, 0, 0, 0.75), rgba(255, 0, 0, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile.stream-bash,
+.stream-tile.stream-git,
+.stream-tile.stream-cdo,
+.stream-tile.stream-nco {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile.stream-ncl {
+  background: linear-gradient(rgba(0, 0, 255, 0.75), rgba(0, 0, 255, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile .stream-title {
+  display: block;
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  font-size: 20px;
+}
+.stream-tile .stream-meta {
+  font-style: italic;
+  display: block;
 }

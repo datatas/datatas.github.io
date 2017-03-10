@@ -5,6 +5,13 @@
 @banner_padding: 80px;
 @banner_margin: 30px;
 
+@overlay_opacity: 0.75;
+
+@overlay_bash: rgba(0,0,0, @overlay_opacity);
+@overlay_python: rgba(0,159,85, @overlay_opacity);
+@overlay_ncl: rgba(0,0,255, @overlay_opacity);
+@overlay_r: rgba(255,0,0, @overlay_opacity);
+
 body {
     padding-top: 90px;
 }
@@ -97,7 +104,7 @@ section {
     }
 
     &.blue-shatter {
-        background-image: url("../img/bg-triangulation.jpg")
+        background-image: url("../img/bg-triangulation.jpg");
     }
 
     &.mission {
@@ -127,11 +134,59 @@ h1, h2, h3 {
 }
 
 footer {
-    // background-color: #333;
-    // color: #fff;
+    background-color: #fff;
+    color: #000;
     border-top: 1px dotted #ccc;
     padding: @footer_padding;
     margin-top: @footer_margin;
+    font-size: 0.8em;
+
+    #footer-logo {
+        width: 150px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #footer-nav {
+        margin: 0px;
+        padding: 0px;
+        li {
+            list-style: none;
+            a {
+                color: inherit;
+                text-transform: uppercase;;
+            }
+        }
+    }
+
+    a.social {
+
+        opacity: 0.5;
+        // margin-left: 20px;
+        // margin-right: 20px;
+
+        img {
+            height: 32px;
+        }
+
+        &:hover {
+            opacity: 1.0;
+        }
+    }
+
+    #footer-subscribe {
+
+        strong {
+            display: block;
+            text-transform: uppercase;
+        }
+
+        input {
+            background-color: #222;
+            border: 1px solid #111;
+        }
+
+    }
 }
 
 // Utilities
@@ -240,4 +295,59 @@ nav#nav-mobile {
     font-size: 24px;
     padding: 30px;
     padding-top: 32px;
+}
+
+// CODEX
+
+.stream-tile {
+
+    // border: 1px solid #ccc;
+
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;;
+
+    &.stream-python {
+        background: linear-gradient(@overlay_python,@overlay_python), url("../img/shattered.jpg");
+        color: #fff;
+    }
+
+    &.stream-r {
+        background: linear-gradient(@overlay_r,@overlay_r), url("../img/shattered.jpg");
+        color: #fff;
+    }
+
+    &.stream-bash, &.stream-git, &.stream-cdo, &.stream-nco {
+        background: linear-gradient(@overlay_bash,@overlay_bash), url("../img/shattered.jpg");
+        color: #fff;
+    }
+    //
+    //  {
+    //     background: linear-gradient(@overlay_bash,@overlay_bash), url("../img/shattered.jpg");
+    //     color: #fff;
+    // }
+    //
+    // &.stream-cdo,  {
+    //     background: linear-gradient(@overlay_bash,@overlay_bash), url("../img/shattered.jpg");
+    //     color: #fff;
+    // }
+
+    &.stream-ncl {
+        background: linear-gradient(@overlay_ncl,@overlay_ncl), url("../img/shattered.jpg");
+        color: #fff;
+    }
+
+    .stream-title {
+        display: block;
+        .dt_font;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .stream-meta {
+        font-style: italic;
+        display: block;
+    }
 }
