@@ -142,6 +142,9 @@ footer #footer-subscribe input {
 .text-centered {
   text-align: center;
 }
+.services {
+  padding-bottom: 50px;
+}
 .services h1 {
   margin-bottom: 40px;
 }
