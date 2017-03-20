@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DATA TAS
-email: datatasau@gmail.com
+email: example@example.com
 description: "Tasmanian Data Community"
 keywords: "data,data science,analytics,programming,hobart,tasmania"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,8 +22,13 @@ url: "http://datatas.github.io" # the base hostname & protocol for your site
 twitter_username: datatas
 github_username:  datatas
 google_analytics: UA-92738959-1
+analytics_enabled: true # enable prior to deployment
 
 
 
 # Build settings
 markdown: kramdown
+
+
+# CODEX Settings
+codex_enabled: true
