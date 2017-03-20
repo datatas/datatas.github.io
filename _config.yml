@@ -31,4 +31,4 @@ markdown: kramdown
 
 
 # CODEX Settings
-codex_enabled: true
+codex_enabled: false
