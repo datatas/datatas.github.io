@@ -4,7 +4,7 @@ title: Upcoming Events
 description: Upcoming DATA TAS events
 keywords: data,event,hobart,tasmania,workshop,seminar,conference
 container: true
-disable: true
+disable: false
 show_banner: false
 ---
 
@@ -17,7 +17,7 @@ show_banner: false
 
     <thead>
         <tr>
-            <th width="20%">Date</th>
+            <th width="20%">When/Where?</th>
             <th>Event</th>
         </tr>
     </thead>
@@ -26,28 +26,13 @@ show_banner: false
 
         {% for event in site.data.events %}
         <tr>
-            <td>{{event.date}} @ {{event.time}}</td>
-            <td>{{event.title}}<br/>{{event.description}}</td>
+            <td>{{event.date}} @ {{event.time}}<br/><em>{{event.venue}}</em></td>
+            <td><strong>{{event.title}}</strong><br/>{{event.description}}<br/><a href="{{event.link}}" target="_blank">Speakers and Details</a></td>
         </tr>
         {% endfor %}
 
     </tbody>
 
 </table>
-
-## Seminar Series
-
-We meet monthly for our regular Seminar Series during which a handful of presenters will conduct a seminar on a data-related subject relevant to their work.
-
-## Casual Meetups
-
-Members meet casually to discuss code and data-related topics over a cuppa. If you require assistance or just want to bounce ideas off fellow data enthusiasts, this is the place for you.
-
-- IMAS Waterfront, 9:00am Flex Space
-- UTas Sandy Bay,
-
-### R Fridays
-
-Talk about R stuff...
 
 {% endif %}
