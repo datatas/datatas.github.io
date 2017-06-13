@@ -27,7 +27,8 @@ show_banner: false
         {% for event in site.data.events %}
         <tr>
             <td>{{event.date}} @ {{event.time}}<br/><em>{{event.venue}}</em></td>
-            <td><strong>{{event.title}}</strong><br/>{{event.description}}<br/><a href="{{event.link}}" target="_blank">Speakers and Details</a></td>
+            <td><strong>{{event.title}}</strong><br/>{{event.description}}
+            {% if event.link %}<br/><a href="{{event.link}}" target="_blank">Details</a>{% endif %}</td>
         </tr>
         {% endfor %}
 
