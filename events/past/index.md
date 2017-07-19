@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Upcoming Events
-description: Upcoming DATA TAS events
+title: Past Events
+description: Past DataTas events
 keywords: data,event,hobart,tasmania,workshop,seminar,conference
 container: true
 disable: false
@@ -25,7 +25,7 @@ show_banner: false
     <tbody>
 
         {% for event in site.data.events %}
-        {% if event.type == "upcoming" %}
+        {% if event.type == "past" %}
         <tr>
             <td>{{event.date}} @ {{event.time}}<br/><em>{{event.venue}}</em></td>
             <td><strong>{{event.title}}</strong><br/>{{event.description}}
@@ -38,6 +38,6 @@ show_banner: false
 
 </table>
 
-<p>Looking for past events? <a href="/events/past">Click Here</a></p>
+<p>Looking for upcoming events? <a href="/events">Click Here</a></p>
 
 {% endif %}
