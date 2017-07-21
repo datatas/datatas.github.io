@@ -1,5 +1,5 @@
 type,date,time,venue,title,description,link
 upcoming,27/07/2017,12:00PM,IMAS Waterfront Building<br/>(Flex Space),"DataTas Seminar Series","Speakers on data security, reproducible research and the Australian Ocean Data Network",http://mailchi.mp/57cf08729fe5/data-tas-inaugural-meeting-april-238457
-upcoming,27/07/2017,2:00PM,IMAS Waterfront Building<br/>(Flex Space),"Software Carpentry workshop","Description",https://datatas.github.io/2017-07-27-hobart
+upcoming,27/07/2017,2:00PM,IMAS Waterfront Building<br/>(Flex Space),"Software Carpentry workshop","Session one of the SWC workshop.",https://datatas.github.io/2017-07-27-hobart
 past,14/07/2017,9:15AM,IMAS Waterfront Building<br/>(Flex Space),"R Users Group","Informal meet-up of the R Users Group",
 past,18/05/2017,2:00PM,IMAS Waterfront Building<br/>(Flex Space),DataTas Seminar Series,"Inaugural meeting of the society",http://mailchi.mp/d13a46aef036/data-tas-inaugural-meeting-april-7
