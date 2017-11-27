@@ -297,6 +297,7 @@ div#wds2017 {
   text-align: center;
   background: url("../img/wds2017.jpg");
   background-size: cover;
+  background-position: center center;
 }
 div#wds2017 strong {
   display: block;
