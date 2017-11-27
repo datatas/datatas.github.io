@@ -291,3 +291,23 @@ section#subscribe p.disclaimer {
   font-size: 0.7em;
   padding-top: 10px;
 }
+div#wds2017 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center;
+  background: url("../img/banners/wds2017.jpg");
+  background-size: cover;
+}
+div#wds2017 strong {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+}
+div#wds2017 span.subtitle {
+  display: block;
+  margin-bottom: 1em;
+}
+div#wds2017 span.venue {
+  display: block;
+  margin-bottom: 1em;
+}
