@@ -4,13 +4,14 @@ title: Upcoming Events
 description: Upcoming DATA TAS events
 keywords: data,event,hobart,tasmania,workshop,seminar,conference
 container: true
-disable: false
+disable: true
 show_banner: false
 ---
 
 {% if page.disable %}
 
-<div class="alert alert-info">We are in the process of scheduling our first series of events, please check back soon.</div>
+<div class="alert alert-info">We are in the process of scheduling our first series of events for 2018, please check back soon.</div>
+<p>Looking for past events? <a href="/events/past">Click Here</a></p>
 
 {% else %}
 <table class="table table-bordered table-striped">
