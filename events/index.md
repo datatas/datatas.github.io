@@ -13,6 +13,8 @@ show_banner: false
 <div class="alert alert-info">We are in the process of scheduling our first series of events for 2018, please check back soon.</div>
 <p>Looking for past events? <a href="/events/past">Click Here</a></p>
 
+{% include google_calendar.html %}
+
 {% else %}
 <table class="table table-bordered table-striped">
 
