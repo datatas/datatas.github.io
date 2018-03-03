@@ -1,0 +1,30 @@
+<h2>Event submission</h2>
+
+<p>Do you have an event that you'd like us to know about?</p>
+
+<form name="submit-event" method="POST" netlify-honeypot="bot-field" netlify>
+
+    <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+    </p>
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Your name">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Your email">
+    </div>
+
+    <div class="form-group">
+        <label for="event-details">Event Details:</label>
+        <textarea class="form-control" rows="5" name="event-details" placeholder="Tell us about your event. Include name, description, date/time etc."></textarea>
+    </div>
+
+    <div netlify-recaptcha></div>
+
+    <button type="submit" class="btn btn-primary">Submit Event</button>    
+
+</form>
