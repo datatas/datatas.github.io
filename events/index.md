@@ -1,46 +1,39 @@
 ---
-layout: default
-title: Upcoming Events
+layout: raw
+title: Events
 description: Upcoming DATA TAS events
 keywords: data,event,hobart,tasmania,workshop,seminar,conference
-container: true
+container: false
 disable: true
 show_banner: false
 ---
 
-{% if page.disable %}
+<div class="container">
 
-<div class="alert alert-info">We are in the process of scheduling our first series of events for 2018, please check back soon.</div>
-<p>Looking for past events? <a href="/events/past">Click Here</a></p>
+    <div class="row">
 
-{% include google_calendar.html %}
+        <div class="col-sm-12">
 
-{% else %}
-<table class="table table-bordered table-striped">
+            <h1>{{page.title}}</h1>
 
-    <thead>
-        <tr>
-            <th width="20%">When/Where?</th>
-            <th>Event</th>
-        </tr>
-    </thead>
+        </div>
 
-    <tbody>
+    </div>
 
-        {% for event in site.data.events %}
-        {% if event.type == "upcoming" %}
-        <tr>
-            <td>{{event.date}} @ {{event.time}}<br/><em>{{event.venue}}</em></td>
-            <td><strong>{{event.title}}</strong><br/>{{event.description}}
-            {% if event.link %}<br/><a href="{{event.link}}" target="_blank">Details</a>{% endif %}</td>
-        </tr>
-        {% endif %}
-        {% endfor %}
+    <div class="row">
 
-    </tbody>
+        <div class="col-sm-8">
 
-</table>
+            {% include google_calendar.html %}
 
-<p>Looking for past events? <a href="/events/past">Click Here</a></p>
+        </div>
 
-{% endif %}
+        <div class="col-sm-4">
+
+            {% include submit-event.html %}
+
+        </div>
+
+    </div>
+
+</div>
