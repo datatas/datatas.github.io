@@ -1,0 +1,63 @@
+[
+    {
+        "heading": "Git (Version Control System)",
+        "links": [
+            {
+                "title": "Git (Official)",
+                "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+                "url": "https://git-scm.com/"
+            },
+            {
+                "title": "TryGit",
+                "description": "TryGit is an interactive tutorial developed by GitHub.",
+                "url": "https://try.github.io"
+            },
+            {
+                "title": "Learn Git",
+                "description": "Step-by-step tutorials developed by Atlassian.",
+                "url": "https://www.atlassian.com/git"
+            }
+        ]
+    },
+    {
+        "heading": "Python (Programming Language)",
+        "links": [
+            {
+                "title": "Python (Official)",
+                "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+                "url": "https://www.python.org"
+
+            },
+            {
+                "title": "PyPI - the Python Package Index",
+                "description": "The Python Package Index is a repository of software for the Python programming language.",
+                "url": "https://pypi.python.org/pypi"
+            },
+            {
+                "title": "EarthPy",
+                "description": "EarthPy is a collection of IPython notebooks with examples of Earth Science related Python code. It can be tutorials, descriptions of the modules, small scripts, or just tricks, that you think might be useful for others.",
+                "url": "http://earthpy.org"
+            },
+            {
+                "title": "OceanPython",
+                "description": "OceanPython.org is a website to learn Python Programming Language for ocean- and marine-science applications and to share Python code. OceanPython.org is maintained by students, staff and post-docs at the Department of Oceanography of Dalhousie University (Canada)",
+                "url": "http://oceanpython.org"
+            },
+        ]
+    },
+    {
+        "heading": "R (Programming Language)",
+        "links": [
+            {
+                "title": "The R Project for Statistical Computing (Official)",
+                "description": "R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.",
+                "url": "https://www.r-project.org/"
+            },
+            {
+                "title": "The Comprehensive R Archive Network (CRAN)",
+                "description": "CRAN is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R.",
+                "url": "https://cran.r-project.org/"
+            }
+        ]
+    }
+]

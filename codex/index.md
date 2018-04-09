@@ -2,56 +2,34 @@
 layout: default
 show_banner: true
 title: CODEX
-description: Code examples repository
-container: false
-disabled: true
+description: Master list of helpful data and science links
+container: true
 ---
 
-<div class="container">
-
-    <div class="row">
-
-        <div class="col-sm-7">
-
-            <p class="lead">
-                Welcome to the Code Examples Repository (CODEX),<br/>
-                <br/>
-                The CODEX is designed to ease the pressure on newcomers to data analysis and programming through a series of step-by-step tutorials following a logical curriculum that spans multiple programming languages.<br/>
-                <br/>
-                This repository is open access and maintained by the DataTas community, starting from the fundamentals and moving onto more advanced techniques.<br/>
-                <br/>
-                The CODEX curriculum is currently under development, please check back soon.
-
-            </p>
-
-        </div>
-
-        <div class="col-sm-5">
-
-            <img src="/img/logo-codex.svg" alt="CODEX logo"/>
-
-        </div>
-
-    </div>
-
-    {% if page.disabled == false %}
-
-    <div class="row">
-
-        {% for stream in site.data.codex %}
-
-        <div class="{{stream[1].parent_class}}">
-            <a href="/codex/{{stream[1].slug}}" class="stream-tile stream-shell stream-{{stream[1].slug}}">
-                <span class="stream-title">{{stream[1].title}}</span>
-                <span class="stream-description">{{stream[1].description}}</span>
-                <span class="stream-meta">{{stream[1].topics | size}} topics</span>
-            </a>
-        </div>
-
-        {% endfor %}
-
-    </div>
-
-    {% endif %}
-
+<div class="alert alert-info">
+Want to add something to the CODEX? <a href="https://github.com/datatas/datatas.github.io/issues/new?title=Codex Contribution&body=Thank%20you%20for%20offering%20to%20contribute%20to%20the%20CODEX,%20please%20provide%20the%20title,%20url%20and%20description%20of%20the%20site%20you'd%20like%20to%20see%20added.&labels[]=codex" target="_blank">Click Here</a>
 </div>
+
+<table class="table table-striped table-full">
+
+{% for topic in site.data.codex %}
+
+<tr>
+    <td colspan="2"><strong>{{ topic.heading }}</strong></td>
+</tr>
+
+{% for link in topic.links %}
+<tr>
+    <td width="30%">
+        {{ link.title }}<br/>
+        <a href="{{ link.url }}" target="_blank">{{ link.url }}</a>
+    </td>
+    <td>
+        {{ link.description }}
+    </td>
+</tr>
+{% endfor %}
+
+{% endfor %}
+
+</table>
