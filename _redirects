@@ -1,0 +1,3 @@
+# Redirect domain aliases to primary domain
+http://www.datatas.com.au/* http://datatas.com/:splat 301!
+http://datatas.com.au/* http://datatas.com/:splat 301!

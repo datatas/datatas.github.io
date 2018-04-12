@@ -1,0 +1,24 @@
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#nav-mobile-close").click(function(){
+            $("#nav-mobile").removeClass("nav-mobile-open");
+            return false;
+        });
+
+        $("#nav-open").click(function(){
+            $("#nav-mobile").addClass("nav-mobile-open");
+            return false;
+        })
+
+        $('#nav-mobile a').click(function(){
+            $("#nav-mobile").removeClass("nav-mobile-open");
+            return true;
+        })
+
+    });
+
+</script>

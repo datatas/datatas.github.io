@@ -1,0 +1,316 @@
+body {
+  padding-top: 90px;
+}
+.shadow_up {
+  box-shadow: 0px 0px -5px #000;
+}
+.dt_font {
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+#logo-wordmark {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+#logo-wordmark span {
+  color: #0075f6;
+}
+header {
+  border-bottom: 1px dotted #ccc;
+  position: fixed;
+  background-color: #fff;
+}
+header #nav-logo {
+  display: block;
+  padding: 30px 0px;
+}
+header #nav-logo img {
+  height: 35px;
+}
+header #nav-main {
+  position: relative;
+}
+header #nav-main ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  padding: 30px 0px;
+}
+header #nav-main ul li {
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 24px;
+  display: inline-table;
+  margin-left: 20px;
+}
+header #nav-main ul li a {
+  color: #000;
+}
+header #nav-main ul li a:hover {
+  color: #0075f6;
+  text-decoration: none;
+}
+#tagline {
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+section.banner {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #ccc;
+}
+section.blue-shatter {
+  background-image: url("../img/bg-triangulation.jpg");
+}
+section.mission {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section.mission p {
+  display: block;
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-transform: none;
+  font-size: 20px;
+}
+h1,
+h2,
+h3 {
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+footer {
+  background-color: #fff;
+  color: #000;
+  border-top: 1px dotted #ccc;
+  padding: 30px 0px;
+  font-size: 0.8em;
+}
+footer #footer-logo {
+  width: 150px;
+  display: block;
+  margin-bottom: 20px;
+}
+footer #footer-nav {
+  margin: 0px;
+  padding: 0px;
+}
+footer #footer-nav li {
+  list-style: none;
+}
+footer #footer-nav li a {
+  color: inherit;
+  text-transform: uppercase;
+}
+footer a.social {
+  opacity: 0.5;
+}
+footer a.social img {
+  height: 32px;
+}
+footer a.social:hover {
+  opacity: 1.0;
+}
+footer #footer-subscribe strong {
+  display: block;
+  text-transform: uppercase;
+}
+footer #footer-subscribe input {
+  background-color: #222;
+  border: 1px solid #111;
+}
+.text-centered {
+  text-align: center;
+}
+.services {
+  padding-bottom: 50px;
+}
+.services h1 {
+  margin-bottom: 40px;
+}
+.service {
+  text-align: center;
+}
+.service span.glyphicon {
+  font-size: 60px;
+  display: inline-block;
+  border-radius: 100px;
+  border: 2px solid #0075f6;
+  padding: 30px;
+  margin: auto;
+  color: #0075f6;
+  background-color: #eef;
+}
+.service h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.breadcrumb {
+  background: none;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+.language-logo {
+  max-width: 90%;
+}
+nav#nav-mobile {
+  background-color: #333;
+  color: #fff;
+  display: block;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -100%;
+  top: 0px;
+  transition: right 0.5s;
+  -webkit-transition: right 0.5s;
+  z-index: 10000;
+}
+nav#nav-mobile #nav-mobile-close {
+  color: #fff;
+  padding: 20px;
+  display: block;
+  font-size: 20px;
+}
+nav#nav-mobile.nav-mobile-open {
+  right: 0px;
+  top: 0px;
+}
+nav#nav-mobile ul {
+  margin: 0;
+  padding: 0;
+}
+nav#nav-mobile ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav#nav-mobile ul li a {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 20px;
+  padding: 20px;
+  display: block;
+}
+nav#nav-mobile ul li a:hover {
+  background-color: #222;
+  text-decoration: none;
+}
+#nav-open {
+  float: right;
+  color: #333;
+  font-size: 24px;
+  padding: 30px;
+  padding-right: 10px;
+  padding-top: 32px;
+}
+.stream-tile {
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+.stream-tile.stream-python {
+  background: linear-gradient(rgba(0, 159, 85, 0.75), rgba(0, 159, 85, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile.stream-r {
+  background: linear-gradient(rgba(255, 0, 0, 0.75), rgba(255, 0, 0, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile.stream-bash,
+.stream-tile.stream-git,
+.stream-tile.stream-cdo,
+.stream-tile.stream-nco {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile.stream-ncl {
+  background: linear-gradient(rgba(0, 0, 255, 0.75), rgba(0, 0, 255, 0.75)), url("../img/shattered.jpg");
+  color: #fff;
+}
+.stream-tile .stream-title {
+  display: block;
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  font-size: 20px;
+}
+.stream-tile .stream-meta {
+  font-style: italic;
+  display: block;
+}
+section#subscribe {
+  background-color: #334;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+section#subscribe form {
+  display: block;
+  margin: auto;
+  width: 400px;
+  max-width: 90%;
+}
+section#subscribe form input.form-control {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+section#subscribe p {
+  text-align: center;
+}
+section#subscribe p.disclaimer {
+  font-style: italic;
+  font-size: 0.7em;
+  padding-top: 10px;
+}
+div#wds2017 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center;
+  background: url("../img/banners/wds2017.jpg");
+  background-size: cover;
+}
+div#wds2017 strong {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+}
+div#wds2017 span.subtitle {
+  display: block;
+  margin-bottom: 1em;
+}
+div#wds2017 span.venue {
+  display: block;
+  margin-bottom: 1em;
+}
+iframe {
+  margin-bottom: 30px;
+}

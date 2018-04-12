@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+{% include head.html %}
+</head>
+
+    <body>
+
+        {% if site.analytics_enabled == true %}{% include google_analytics.html %}{% endif %}
+
+        {% include navigation.html %}
+        
+        {% if page.show_wds2017 %}
+        {% include banner_wds2017.html %}
+        {% endif %}
+
+        {% if page.show_banner == true %}
+        {% include banner.html %}
+        {% endif %}
+
+        {% if page.container %}
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+        {% endif %}
+
+        {% include breadcrumbs.html %}
+
+        {% if page.show_banner == false %}
+        <h1>{{page.title}}</h1>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.codex_stream %}
+        {% include codex_prev_next.html %}
+        {% endif %}
+
+        {% if page.container %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% include email_signup.html %}
+
+        {% include footer_social.html %}
+        {% include scripts.html %}
+
+    </body>
+
+</html>

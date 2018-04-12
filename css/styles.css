@@ -1,0 +1,20 @@
+#logo-wordmark {
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+}
+
+#logo-wordmark span {
+    color: rgb(0,117,246);
+}
+
+#tagline {
+    font-family: Roboto;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+}
