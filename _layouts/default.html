@@ -8,11 +8,10 @@
     <body>
 
         {% if site.analytics_enabled == true %}{% include google_analytics.html %}{% endif %}
-
         {% include navigation.html %}
-        
-        {% if page.show_wds2017 %}
-        {% include banner_wds2017.html %}
+
+        {% if page.show_mcml2019 == true %}
+        {% include banner_mcml2019.html %}
         {% endif %}
 
         {% if page.show_banner == true %}
@@ -27,7 +26,7 @@
 
         {% include breadcrumbs.html %}
 
-        {% if page.show_banner == false %}
+        {% if page.show_banner == false and page.show_mcml2019 == false %}
         <h1>{{page.title}}</h1>
         {% endif %}
 
