@@ -22,9 +22,6 @@ container: true
                 Account Number: 1037 2997<br></p>
                 <br>
                 <p>If you are purchasing a membership via bank transfer, please send us an email at [datatasau@gmail.com](mailto:datatasau@gmail.com) with proof of your bank transfer (a screen capture works just fine). If you are a student, please also include your student number in the email. Once we receive your transfer we will add you to our mailing list so you can keep up to date with our events.</p>
-            </div>
-        </div>
-    </div>
-</section>
+            
 
 
