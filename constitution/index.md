@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Constitution
-description: Our constitution
-show_banner: false
+description: Data Tas constitution
+show_banner: true
 container: true
 ---
 
