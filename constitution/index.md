@@ -24,9 +24,9 @@ The objects and purposes of the Society shall be:
 
 - To provide education and training materials for newcomers to data processing and analysis through organised events (see 3.b), and through the development of an online repository of introductory programming reference materials;
 
--To maintain a list of relevant data sources for members;
+- To maintain a list of relevant data sources for members;
 
--To organise or compete in data-related competitions (e.g, GovHack) as interest arises from members;
+- To organise or compete in data-related competitions (e.g, GovHack) as interest arises from members;
 
 - The acceptance of a gift for any of the objects or purposes of the Society;
 
@@ -36,30 +36,52 @@ The objects and purposes of the Society shall be:
 
 - To acquire any domain name, web property, or online presence for the purposes of the Society.
 
+## 4. Affiliations
 
-## 4. Society Subject to TUU Regulations and Societies Council Policy
+The Society shall be affiliated with the Tasmania University Student Association Inc., and anything in this constitution or any act of this Society or its office-bearers which is inconsistent with the constitution or regulations of the Tasmania University Student Association Inc., or any amendment thereto or any special rule thereunder, shall be null and void insofar as it is inconsistent. 
 
-1. The society is subject to TUU Regulations relating to clubs and societies, and anything in its constitution, any by-law of the society or its office-bearers which is inconsistent with the said Regulation, or any amendment to a special rule there under, shall be void and of no effect insofar as it is inconsistent.
-
-2. The Standing Orders of the TUU relating to meeting procedure, is to be adopted by the society.
-
-3. The society is subject to Societies Council Policy, and anything in its constitution, any by-law of the society or its office-bearers which is inconsistent with the said Policy, or any amendment to a special rule there under, shall be void and of no effect insofar as it is inconsistent.
+# Section 2: Society Membership
 
 ## 5. Membership
 
-1. Full Membership: Any student currently enrolled at the University of Tasmania is eligible to be a Full Member of any society on payment of the required membership fee. No such member of the TUU may be discriminated against on any grounds with regard to membership of any society.
+1. The annual membership period for the Society shall last one calendar year from the date of sign up.
 
-2. Associate Membership: Any person, who is not enrolled as a student at the University of Tasmania is eligible to be an Associate member of any society on payment of the required membership fee. No such person may be discriminated against on any grounds with regard to membership of any society.
+2. The Society shall be open to all currently enrolled students at the University of Tasmania upon payment of the prescribed annual subscription fee as determined by the Society.
 
-## 5. Expulsion from a Society
+3. Persons 18 years or older who are excluded by 5.2 may join as an associate member of the Society upon payment of the associate member subscription fee as determined by the Society.
 
-1. A society shall have the power to expel any member from the society for misconduct of a nature opposed to the objects of the society, and/or the interests and reputation of the society and/or its members.
+4. Upon receipt of the appropriate membership fee listed in (6), the secretary is required to enter the applicant’s name in a register of members. 
 
-2. Such expulsion shall be made by way of a motion at an extra-ordinary meeting of that society.
+5. All full and associate members are entitled to the same rights and privileges, except where rules and regulations direct otherwise.
 
-3. Debate regarding the expulsion shall be held in camera. (This means no record of the debate will be made)
+6. All full and associate members may participate in the Society’s activities if by doing so they are not likely to affect –
 
-4. Where a society has expelled any one of its members according to section 5(1), section 4 shall be void with regard to that member or members, and such expulsion shall be permanent unless revoked by way of a motion at an Annual General Meeting or extra-ordinary general meeting of that society.
+    1. the safety of themselves, other participants, bystanders, or the general public; or
+
+    2. the integrity of the Society’s property; or
+
+    3. the viability of the Society’s activities.
+
+## 6. Annual Subscription
+
+1. The annual subscription payable by full members of the Society as described in 5.2 is the following amount: $5/yr.
+
+2. The annual subscription payable by associate members of the Society as described in 5.3 is the following amount: $10/yr.
+
+3. The members of the Society may alter the annual subscription detailed in 6.1 and 3.2 by special resolution.
+
+4. Memberships are purchased for one calendar year.
+
+## 7. Expulsion of members
+
+1. The Committee may expel from the Society or otherwise punish or penalise any member whose conduct, in the opinion of the committee, is discreditable or injurious to the character or interests of the Society.
+
+2. Before any member is expelled or otherwise punished or penalised their conduct shall be enquired into by the Committee and the member shall be given the opportunity to defend themselves and to justify or explain their conduct.  
+
+3. Should any member fail to appear at any inquiry conducted under Clause 7.2 hereof, or any adjournment thereof, the Committee may proceed in that member's absence to conduct the said inquiry.
+
+4. Provided a quorum is established and the majority of the Committee present when the matter is inquired into is of the opinion that the member has been guilty of such conduct or action as aforesaid, the Committee may expel or suspend him from membership.
+
 
 ## 6. Composition of a Society Executive
 
