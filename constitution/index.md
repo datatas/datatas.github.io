@@ -8,13 +8,36 @@ container: true
 
 ## 1. Name
 
-The name of the society shall be "DATA TAS", herein referred to as "The Society".
+The name of the society shall be "DATA TAS", herein referred to as the Society.
 
-## 2. Objects/Aims
+## 2. Society’s Office 
 
-The objects/aims of the Society shall be to share data-related tools, techniques and knowledge, and foster a community of like-minded individuals across disciplines, industries and level of ability.
+The office of the Society is to be at the Tasmania University Student Association (TUSA) , PO Box 5055, University of Tasmania LPO, Sandy Bay, TAS 7005.
 
-## 3. Society Subject to TUU Regulations and Societies Council Policy
+## 3. Objects/Aims
+
+The objects and purposes of the Society shall be:
+
+- To provide opportunities for members of the Society to participate in data- and programming-related events; 
+
+- To organise and facilitate workshops and seminars pertaining to the purpose of the Society;
+
+- To provide education and training materials for newcomers to data processing and analysis through organised events (see 3.b), and through the development of an online repository of introductory programming reference materials;
+
+-To maintain a list of relevant data sources for members;
+
+-To organise or compete in data-related competitions (e.g, GovHack) as interest arises from members;
+
+- The acceptance of a gift for any of the objects or purposes of the Society;
+
+- To invest Society's funds in events that are in line with the Society's objectives and our members' interest.;
+
+- To print or publish any newspaper, periodical, book, leaflet, blog or other document that the committee or members of the Society at a general meeting determine desirable for the promotion of any of the objects or purposes of the association.
+
+- To acquire any domain name, web property, or online presence for the purposes of the Society.
+
+
+## 4. Society Subject to TUU Regulations and Societies Council Policy
 
 1. The society is subject to TUU Regulations relating to clubs and societies, and anything in its constitution, any by-law of the society or its office-bearers which is inconsistent with the said Regulation, or any amendment to a special rule there under, shall be void and of no effect insofar as it is inconsistent.
 
@@ -22,7 +45,7 @@ The objects/aims of the Society shall be to share data-related tools, techniques
 
 3. The society is subject to Societies Council Policy, and anything in its constitution, any by-law of the society or its office-bearers which is inconsistent with the said Policy, or any amendment to a special rule there under, shall be void and of no effect insofar as it is inconsistent.
 
-## 4. Membership
+## 5. Membership
 
 1. Full Membership: Any student currently enrolled at the University of Tasmania is eligible to be a Full Member of any society on payment of the required membership fee. No such member of the TUU may be discriminated against on any grounds with regard to membership of any society.
 
