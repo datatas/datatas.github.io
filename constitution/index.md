@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: raw
 title: Constitution
 description: Data Tas constitution
 show_banner: true
