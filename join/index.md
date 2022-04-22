@@ -23,5 +23,5 @@ container: true
                 <br>
                 <p>If you are purchasing a membership via bank transfer, please send us an email at datatasau@gmail.com with proof of your bank transfer (a screen capture works just fine). If you are a student, please also include your student number in the email. Once we receive your transfer we will add you to our mailing list so you can keep up to date with our events.</p>
             
-
+If you prefer to use a debit or credit card, Datatas memberships are also available through QPay: https://datatas.getqpay.com.
 
