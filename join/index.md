@@ -21,6 +21,7 @@ container: true
                 BSB: 067-104<br>
                 Account Number: 1037 2997<br></p>
                 <br>
-                <p>If you are purchasing a membership via bank transfer, please send us an email at datatasau@gmail.com with proof of your bank transfer (a screen capture works just fine). If you are a student, please also include your student number in the email. Once we receive your transfer we will add you to our mailing list so you can keep up to date with our events.</p>
+                <p>If you are purchasing a membership via bank transfer, please send us an <a href="mailto:datatasau@gmail.com">email</a> with proof of your bank transfer (a screen capture works just fine). If you are a student, please also include your student number in the email. Once we receive your transfer we will add you to our mailing list so you can keep up to date with our events.</p>
+                <br>
                 <p>If you prefer to use a debit or credit card, Datatas memberships are also available through QPay. Click <a href="https://datatas.getqpay.com">here</a> to join.</p>
 
